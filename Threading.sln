@@ -11,6 +11,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Thread-Abort", "03.Threa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.Thread-Thread-pool", "04.Thread-Thread-pool\04.Thread-Thread-pool.csproj", "{E6D9D216-A179-4D5B-B57F-1A34DDB337D8}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.PLINQ-Introduction", "05.PLINQ-Introduction\05.PLINQ-Introduction.csproj", "{035CCBCB-5FA9-4E1F-B19E-20AD42BCECDE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.PLINQ-Degree-of-Parallelism", "06.PLINQ-Degree-of-Parallelism\06.PLINQ-Degree-of-Parallelism.csproj", "{B2D01832-C545-4912-BAB4-2C41B94B8B7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.PLINQ-Cancellation-token", "07.PLINQ-Cancellation-token\07.PLINQ-Cancellation-token.csproj", "{CBE1C39E-1971-4437-8262-1C23108BE8E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.PLINQ-Handling-exceptions", "08.PLINQ-Handling-exceptions\08.PLINQ-Handling-exceptions.csproj", "{309C9696-4C5C-41EB-A5A9-279D84A453F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +41,22 @@ Global
 		{E6D9D216-A179-4D5B-B57F-1A34DDB337D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6D9D216-A179-4D5B-B57F-1A34DDB337D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6D9D216-A179-4D5B-B57F-1A34DDB337D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{035CCBCB-5FA9-4E1F-B19E-20AD42BCECDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{035CCBCB-5FA9-4E1F-B19E-20AD42BCECDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{035CCBCB-5FA9-4E1F-B19E-20AD42BCECDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{035CCBCB-5FA9-4E1F-B19E-20AD42BCECDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2D01832-C545-4912-BAB4-2C41B94B8B7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2D01832-C545-4912-BAB4-2C41B94B8B7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2D01832-C545-4912-BAB4-2C41B94B8B7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2D01832-C545-4912-BAB4-2C41B94B8B7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBE1C39E-1971-4437-8262-1C23108BE8E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBE1C39E-1971-4437-8262-1C23108BE8E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBE1C39E-1971-4437-8262-1C23108BE8E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBE1C39E-1971-4437-8262-1C23108BE8E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{309C9696-4C5C-41EB-A5A9-279D84A453F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{309C9696-4C5C-41EB-A5A9-279D84A453F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{309C9696-4C5C-41EB-A5A9-279D84A453F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{309C9696-4C5C-41EB-A5A9-279D84A453F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
